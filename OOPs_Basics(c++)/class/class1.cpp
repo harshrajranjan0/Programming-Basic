@@ -6,8 +6,8 @@ private:
     int chemistry, maths, pps;
 
 public:
-    int roll, id;
-    void getdata(int c, int m, int p);
+    int roll, id; // Data members (variables / properties)
+    void getdata(int c, int m, int p); //Member functions (methods)
     void print()
     {
         cout << "Harsh Chemistyr Marks is: " << chemistry << endl;
@@ -17,7 +17,7 @@ public:
         cout << "Harsh ID is : " << id << endl;
     }
 };
-void student::getdata(int c, int m, int p)
+void student::getdata(int c, int m, int p) //This function acts like a safe, authorized way to set marks to private member
 {
     chemistry = c;
     maths = m;
