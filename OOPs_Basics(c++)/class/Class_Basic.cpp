@@ -35,3 +35,42 @@ int main()
     harsh.GetData();
     return 0;
 }
+
+/*
+🔹 What is Object-Oriented Programming (OOP)?
+OOP is a programming style where data and the functions that operate on that data are bundled together into a single unit called a class.
+
+Objects are created from classes and represent real-world entities.
+
+🔹 C Language (Procedural / Structured Programming)
+Uses structs to store data.
+
+Functions are defined separately from structs.
+
+You have to manually pass data to functions.
+
+No concept of objects that manage their own behavior.
+
+No support for encapsulation, inheritance, or polymorphism.
+
+🔹 Object-Oriented Languages (C++, Java, Python)
+Use classes to bundle data + functions together.
+
+You create objects from classes.
+
+Objects contain both the data and the functions (methods) to manipulate that data.
+
+Promotes self-contained units that manage their own state and behavior.
+
+🔹 Key OOP Features in Classes
+Encapsulation: Hiding internal details, exposing only what’s needed.
+
+Inheritance: One class can inherit features from another.
+
+Polymorphism: Same function name can perform different actions based on the object.
+
+Abstraction: Focus on essential features, hiding complexity.
+
+
+
+*/
