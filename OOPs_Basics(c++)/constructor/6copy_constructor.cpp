@@ -45,3 +45,19 @@ int main()
     z3.Display();
     return 0;
 }
+
+
+/*
+🔹 Why Do We Use a Copy Constructor?
+To copy one object to another during:
+
+Object initialization (Class obj2 = obj1;)
+
+Passing object by value to a function
+
+Returning an object from a function by value
+
+To define custom copy behavior when a deep copy is needed (for example, with dynamic memory).
+
+
+*/
